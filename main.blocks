@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="q5q49HGi9+;Z{fHad/YF">mySprite</variable><variable type="KIND_SpriteKind" id="C`;njjJolU^0T=B!ca!7">Player</variable><variable type="KIND_SpriteKind" id="t`I:^y8C#rd#!9RMSn:o">Projectile</variable><variable type="KIND_SpriteKind" id="f.Zmnp}RQEU;vzf#.bq^">Food</variable><variable type="KIND_SpriteKind" id="ZV-]TcYafsoCIaib}utg">Enemy</variable></variables><block type="pxt-on-start" id="@;v]mB@%BR:tYTN*F)N/" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="0[]/O.u=JDX2uZT:iJao"><field name="VAR" id="q5q49HGi9+;Z{fHad/YF">mySprite</field><value name="VALUE"><shadow type="math_number" id="ww7p~,@YH0X+tBwD3;]v"><field name="NUM">0</field></shadow></value><next><block type="game_control_sprite" id="[fCzV,)KSqY3cD+NM1AO"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="spritescreate" id="ViIQ)y#^_.wFlmY-XLC_"><value name="img"><shadow type="screen_image_picker" id="s%a--aq$o@]4Vk_`{5aX"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . 3 3 . . . . . . . . . . . 
+. . 3 3 3 3 . . . . . . . . . . 
+. . 3 3 3 3 3 . . . . . . . . . 
+. . . . . 3 3 . . . . . . . . . 
+. . . . . . 3 3 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="[%a?VuSJZ(#=Xj8,(y#+"><field name="MEMBER">Player</field></shadow><block type="variables_get" id="nnn7zrR(j#Q%:Ne[u/%`"><field name="VAR" id="q5q49HGi9+;Z{fHad/YF">mySprite</field></block></value></block></value><value name="vx"><shadow type="spriteSpeedPicker" id=":,,(t~tDUCHu?U(ham*E"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="@m0v17+z/HbROk}F0H@?"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
